@@ -22,6 +22,9 @@
 
 .benefits-item {
   width: 270px;
+  & + & {
+    margin-left: 30px;
+  }
 }
 
 .benefits-content {
@@ -32,10 +35,6 @@
   justify-content: center;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
-}
-
-.benefits-item + .benefits-item {
-  margin-left: 30px;
 }
 
 .benefits-item-text {
