@@ -1,0 +1,33 @@
+.class-section {
+  padding-top: 0px;
+}
+
+.class-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-img {
+  position: relative;
+}
+
+.class-img + .class-img {
+  margin-left: 30px;
+}
+
+.class-caption-pictures {
+  position: absolute;
+  bottom: 0;
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: rgba(47, 48, 58, 0.8);
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
