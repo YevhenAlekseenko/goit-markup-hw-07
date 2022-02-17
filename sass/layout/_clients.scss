@@ -4,9 +4,7 @@
 }
 
 .clients-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align-list;
   width: 170px;
   height: 92px;
   & + & {
@@ -15,9 +13,7 @@
 }
 
 .clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align-list;
   color: #afb1b8;
   width: 100%;
   height: 100%;

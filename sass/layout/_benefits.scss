@@ -28,11 +28,9 @@
 }
 
 .benefits-content {
-  display: flex;
+  @extend %align-list;
   margin-bottom: 30px;
   height: 120px;
-  align-items: center;
-  justify-content: center;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
 }
