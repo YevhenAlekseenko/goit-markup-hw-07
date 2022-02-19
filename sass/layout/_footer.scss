@@ -9,7 +9,7 @@
   align-items: baseline;
 }
 
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
 
@@ -21,33 +21,33 @@
   color: #ffffff;
 }
 
-.footer-text-web {
+.footer__text-web {
   color: var(--accent-color);
 }
 
-.address {
+.footer__address {
   font-style: normal;
 }
 
-.footer-item + .footer-item {
+.footer-contact__item + .footer-contact__item {
   margin-top: 9px;
 }
 
-.footer-link-maps {
+.footer-contact__link-maps {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
-.footer-link {
+.footer-contact__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-text-join {
+.footer-sotials__text-join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -61,12 +61,12 @@
   margin-left: 70px;
 }
 
-.footer-socials-list {
+.footer-sotials__list {
   display: flex;
   justify-content: center;
 }
 
-.footer-socials-link {
+.footer-socials__link {
   @extend %align-list;
   width: 44px;
   height: 44px;
@@ -83,11 +83,11 @@
   }
 }
 
-.footer-social-icon {
+.footer-social__icon {
   fill: currentColor;
 }
 
-.footer-socials-item + .footer-socials-item {
+.footer-socials__item + .footer-socials__item {
   margin-left: 10px;
 }
 
@@ -95,7 +95,7 @@
   margin-left: auto;
 }
 
-.footer-form-text {
+.footer-form__text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -110,7 +110,7 @@
   display: flex;
 }
 
-.footer-input-mail {
+.footer-subscribe__mail {
   display: flex;
   align-items: center;
   width: 358px;
@@ -128,7 +128,7 @@
   border-radius: 4px;
 }
 
-.subscribe-button {
+.footer-subscribe__button {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -152,7 +152,7 @@
   }
 }
 
-.icon-subscribe {
+.footer-subscribe__icon {
   margin-left: 12px;
   fill: var(--primary-white-color);
 }
