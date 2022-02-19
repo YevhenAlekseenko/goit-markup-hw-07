@@ -55,7 +55,7 @@ a {
   margin: -1px;
 }
 
-.button-close, .modal-check-text, .modal-check-text span, .heder-contacts__item, .class-caption-pictures, .benefits-content, .team-socials-link, .clients-item, .clients-link, .footer-socials-link {
+.button-close, .modal-check-text, .modal-check-text span, .heder-contacts__item, .class-caption-pictures, .benefits__content, .team-socials-link, .clients-item, .clients-link, .footer-socials-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -556,17 +556,17 @@ a {
   letter-spacing: 0.03em;
 }
 
-.benefits-container {
+.benefits__container {
   display: flex;
   flex-wrap: 270px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.benefits-title {
+.benefits__title {
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
@@ -576,29 +576,29 @@ a {
   width: 270px;
 }
 
-.benefits-item {
+.benefits__item {
   width: 270px;
 }
 
-.benefits-item + .benefits-item {
+.benefits__item + .benefits__item {
   margin-left: 30px;
 }
 
-.benefits-content {
+.benefits__content {
   margin-bottom: 30px;
   height: 120px;
   background-color: var(--secondary-background-color);
   border-radius: 4px;
 }
 
-.benefits-item-text {
+.benefits__item-text {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.section-title {
+.section__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
