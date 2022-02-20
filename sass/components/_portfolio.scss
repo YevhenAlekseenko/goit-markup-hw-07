@@ -3,13 +3,13 @@
   border: 1px solid #eeeeee;
 }
 
-.portfolio-button__list {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-button__btn {
+.filter__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -32,7 +32,7 @@
   }
 }
 
-.portfolio-button__item {
+.filter__item {
   background: #f5f4fa;
   border-radius: 4px;
   & + & {
@@ -40,7 +40,7 @@
   }
 }
 
-.portfolio__list {
+.portfolio {
   display: flex;
   margin-left: -30px;
   margin-bottom: -30px;

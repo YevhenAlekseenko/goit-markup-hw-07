@@ -1,9 +1,9 @@
-.benefits__container {
-  display: flex;
-  flex-wrap: 270px;
-}
+// .benefits__container {
+//   display: flex;
+//   flex-wrap: 270px;
+// }
 
-.benefits__list {
+.benefits {
   display: flex;
   flex-wrap: wrap;
 }
@@ -35,7 +35,7 @@
   border-radius: 4px;
 }
 
-.benefits__item-text {
+.benefits__text {
   color: var(--primary-text-color);
 
   font-size: 14px;
